@@ -2,36 +2,43 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   background-color: hsl(47, 88%, 63%);
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "Figtree", sans-serif;
 }
+
 .container {
   width: 375px;
   margin: 10% auto;
   border-radius: 15px;
   background: black;
 }
+
 .sub-container {
   background-color: hsl(0, 0%, 100%);
   border-radius: 15px;
   border: 2px solid;
   transform: translate(-8px, -8px);
 }
+
 .ex-sub {
   margin: 25px 25px;
 }
+
 .blog-img {
   border-radius: 10px;
   width: 100%;
 }
+
 .content {
   text-align: left;
   align-items: left;
   justify-content: left;
 }
+
 .category {
   background-color: hsl(47, 88%, 63%);
   border-radius: 5px;
@@ -41,27 +48,32 @@ body {
   padding-top: 5px;
   padding-bottom: 5px;
 }
+
 .category h1 {
   font-size: 16px;
   text-align: center;
   font-weight: 800;
 }
+
 .publish-date {
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 15px;
   color: hsl(0, 0%, 7%);
 }
+
 .title {
   margin-bottom: 15px;
   font-size: 22px;
   font-weight: 800;
 }
+
 .title a {
   text-decoration: none;
   color: hsl(0, 0%, 7%);
   transition: 0.5s;
 }
+
 .title a:hover {
   color: hsl(47, 88%, 63%);
 }
@@ -77,9 +89,11 @@ body {
   display: flex;
   align-items: center;
 }
+
 .userpic {
   width: 10%;
 }
+
 .authorname {
   font-size: 14px;
   font-weight: 800;
